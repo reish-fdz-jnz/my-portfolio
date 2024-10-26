@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <!--MENU-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#about-me">Reishell Fernández Jiménez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#start" onclick="choose()">HOME</a></li>
+                    <li><a href="#about-me" onclick="choose()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="choose()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="choose()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="choose()">PORTFOLIO</a></li>
+                    <li><a href="#contact" onclick="choose()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showAndHideButton()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+       <!-- Start Section -->
+       <section id="start" class="start">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="../assets/perfil-photo-rfdz-jnz.jpg" alt="">
+            </div>
+            <h1>Reishell Fernández Jiménez</h1>
+            <h2>Informatics Engineering Student - ULACIT</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/reishell-fern%C3%A1ndez-jim%C3%A9nez-6b549b279/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Reishell, </span>I am a student interested in increase my software development abilities
+                and learn
+                about new technologies. Knowledgeable in cloud computing and committed to continuous learning and
+                professional growth.</p>
+
+            <div class="row">
+                <!-- Personal Data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            14/01/2005
+                        </li>
+                        <li>
+                            <strong>Phone Number</strong>
+                            (506) 7154-0933
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            reishellfj10@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            San Jose, Costa Rica.
+                        </li>
+                        <li>
+                            <strong>Education</strong>
+                            <span>Informatics Engineering Student | ULACIT</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <p>I have a strong interest in cloud computing and web development. I have strong leadership skills
+                        and
+                        a proactive approach to problem-solving, which allows me to take initiative and contribute
+                        effectively in team environments.
+                        I am excited to collaborate with others to drive innovative solutions.</p>
+                </div>
+            </div>
+            <button onclick="downloadBtn()">
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="col">
+            <div class="content-section">
+                <h2>Skills</h2>
+                <div class="content-skills">
+                    <div class="skill">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Google Cloud</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>OCI</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>.NET Framework</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-book"></i>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Oracle</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-car"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-car"></i>
+                        <span>English</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Curriculum Section-->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left1">
+                    <h3>Education</h3>
+                    <div class="item left">
+                        <h4>Informatics Engineering Student</h4>
+                        <span class="house">ULACIT</span>
+                        <span class="date"> Current 2023 - 2026</span>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+
+                    <div class="item left">
+                        <h4>AWS Cloud Practicioner Essencials.</h4>
+                        <h4>(CLF-C02)</h4>
+                        <span class="house">Web Development. Mujer Digital, Junior Achievement</span>
+                        <span class="date">Current 2023</span>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col right1">
+                    <div class="item left">
+                        <h4>Google Cloud Computing Certificate</h4>
+                        <span class="house"> Google. INA.</span>
+                        <span class="date">Current 2023</span>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+
+                    <div class="item left">
+                        <h4>Base de Datos I</h4>
+                        <span class="house">Rocket Girls, Women in Tech Foundation.</span>
+                        <span class="date">Current 2023</span>
+                        <div class="conectord">
+                            <div class="circled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="content-section">
+            <h2>PORTFOLIO</h2>
+            <div class="gallery">
+                <div class="project" onclick="goToProject()">
+                    <img src="../assets/FoodieApp.png" alt="">
+                    <div class="overlay">
+                        <h3>Foodie</h3>
+                        <p>Foodie is an app that makes the food ordering process easier for businesses of all sizes. Designed to manage multiple orders simultaneously, it ensures efficient inventory control and prevents system failures.
+                        Foodie seeks to transform the food purchasing experience, improving efficiency and customer satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="contact">
+        <div class="content-section">
+            <h2>CONTACT ME</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!-- footer -->
+    <footer>
+        <a href="#start" class="above">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/reishell-fern%C3%A1ndez-jim%C3%A9nez-6b549b279/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
