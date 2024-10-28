@@ -21,10 +21,10 @@ function goToProject(){
 }
 
 function downloadBtn(){
-    const fileUrl = "../assets/ReishellFernández - Informatics Engineer Student CV.pdf"; // Cambia esto por la ruta de tu archivo
+    const fileUrl = "../assets/ReishellFernández - Informatics Engineer Student CV.pdf";
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = 'ReishellFernández - Informatics Engineer Student CV.pdf'; // Nombre del archivo que se descargará
+    link.download = 'ReishellFernández - Informatics Engineer Student CV.pdf'; 
     
     // Hacer el enlace invisible
     link.style.display = 'none';
